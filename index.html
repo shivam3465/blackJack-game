@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlackJack Game </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="starting">BLACKJACK</h1>
+  <h2>Weclome to black jack Game<h1>
+      
+      <div id="message">
+        <h2>MESSAGE: </h2>
+        <p id="message-el">Want to play a round?</p>
+      </div>
+      
+      <div id="gameArea">
+        <p id="card-el" class="Game">Cards:</p>
+        <p id="sum-el" class="Game">Sum:</p>
+      </div>
+      
+      <div id="buttonArea">
+        <button class="btn" id="start-button" onclick="startgame()">START GAME</button>
+        <button class="btn" id="restart-btn" onclick="restartgame()">RESTART GAME</button>
+        <button class="btn" onclick="newcard()">NEW CARD</button>
+      </div>
+
+      <pre id="user"></pre>
+      
+      <button id="hide-btn" onclick="hide()">See Rules</button>
+      <div id="rules">
+        <h1>How to play BlackJack Game </h1>
+        <ul>
+        
+          <li>First of all you should click on "START GAME" button, this will give you two cards randomly.</li>
+
+          <li>Now if the sum of the digits of cards is less than 21 then you can add 
+            a new card by clicking "NEW CARD" button, and this will be also given to you randomly.</li>
+
+          <li>Now again if the sum of all the three cards is less than 21 , then again you can add a card as suggest in
+            step 2.</li>
+
+          <li>You can keep adding new cards until your sum either gets equal to 21 OR becomes greater than 21.</li>
+
+          <li>So if your sum of the cards is equal to 21 then Wohooo! <i>You have got a blackJack! that means you have won the game. </i>
+          </li>
+
+          <li>And if your sum is greater than 21 then you have lost the game and you are out of it .</li>
+
+          <li>Now you can play again by clicking the "RESTART" button</li>
+
+        </ul>
+        <p id="endingPara">So let's get started and try Our luck here!!</p>
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>

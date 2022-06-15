@@ -1,0 +1,103 @@
+*{margin:0px; padding:0px;}
+
+body{
+  background-color: rgb(4, 4, 46);
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+} 
+p,div{
+  color:white;
+  font-size: 1.3rem;
+}
+h1{
+  color: rgb(245, 110, 6);
+  font-size: 3rem;
+  padding: 1.5rem 0rem;
+}
+h2{
+  color: rgb(255, 191, 0);
+}
+
+#message{
+  border: 0.5rem double rgba(136, 136, 215,0.5);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.6rem;
+  margin: 0px 0px 1rem 0px;
+}
+#message h2{
+  color:red;
+}
+#message-el{
+  font-style: italic;
+  padding: 1rem 0rem;
+}
+#gameArea{
+  padding: 1rem 1rem;
+  border: 0.15rem dashed rgb(170, 198, 207);
+  margin: 0.5rem;
+  
+}
+
+.btn{
+  background-color: rgb(207, 37, 37);
+  color: white;
+  width:12rem;
+  font-weight: bold;
+  border-radius: .4rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+#restart-btn{
+  padding: 0.5rem 0.7rem;
+}
+#user{
+  margin: 1rem 0rem;
+  font-size: 1.2rem;
+}
+#user,#chips{
+  margin: 1rem 0rem;
+}
+ul{
+  padding: 0rem 6rem;
+  /* width: 100%; */
+}
+ul li{
+  font-size: 1.4rem;
+  text-align: initial;
+  margin: 0.8rem 0rem;
+  color: white;
+  font-weight: 500;
+}
+#endingPara{
+  font-weight: 700;
+  color: rgb(139 190 227 / 92%);
+  font-size: 2rem;
+  margin: 1.5rem 0rem;
+}
+#hide-btn{
+  background-color: rgb(175, 202, 227);
+  color: rgb(47, 42, 42);
+  width:9rem;
+  font-weight: 600;
+  border-radius: .4rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+@media screen and (max-width:700px){
+  html{
+    font-size: 62%;
+  }
+}
+/* @media screen and (max-width:430px){
+  html{
+    font-size: 62%;
+  }
+  ul{
+    padding: 0rem 4rem;
+  } 
+} */
